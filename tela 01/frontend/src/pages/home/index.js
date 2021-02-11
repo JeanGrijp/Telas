@@ -14,6 +14,7 @@ import userBlack from "../../imagens/userBlack.svg";
 
 export default function Home() {
   return (
+    <>
     <div className='container'>
       <a className="middle1"></a>
       <a href="/home" className="icon1">
@@ -33,6 +34,8 @@ export default function Home() {
         <img src={userBlack} alt="" srcSet=""/></a>
       <a className="middle6"></a>
     </div>
-
+    <div className="footer"></div>
+    </>
+  
   )
 };

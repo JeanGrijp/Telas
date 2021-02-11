@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
-import home from './pages/home/';
+import home from './pages/home/index.js';
 import local from './pages/local/';
 import profile from './pages/profile';
 import settingss from './pages/settingss';

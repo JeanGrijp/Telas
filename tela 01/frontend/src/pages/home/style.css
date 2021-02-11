@@ -18,13 +18,24 @@ html {
   scroll-behavior: smooth;
 }
 
+div.footer {
+  width: 100%;
+  height: 5%;
+  background: #fff;
+  position: absolute;
+  bottom: 37%;
+  z-index: 1;
+}
 
 div.container {
+  z-index: 2;
+  border: 1px solid red;
   width: 100%;
-  height: 8%;
+  height: 10%;
   position: absolute;
-  bottom: 0;
-  background: var(--color-background-1);
+  bottom: 40%;
+  background: #fff;
+  /* background: var(--color-background-1); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +43,7 @@ div.container {
 }
 
 div.container a {
-  background: #fff;
+  background: var(--color-background-1);
 
   display: flex;
   justify-content: center;
@@ -51,7 +62,9 @@ div.container a img {
 }
 
 div.container a.icon1 {
-  background: none;
+  border: 1px solid red;
+  background: var(--color-background-1);
+  border-radius: 0px 0px 20px 20px;
 }
 
 
@@ -63,4 +76,3 @@ div.container a.middle1 {
 div.container a.middle2 {
   border-radius: 50px 0px 0px 0px;
 }
-
