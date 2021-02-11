@@ -9,6 +9,9 @@ import settingsBlack from "../../imagens/settingsBlack.svg";
 import userBlack from "../../imagens/userBlack.svg";
 
 
+
+
+
 export default function Home() {
   return (
     <div className='container'>
