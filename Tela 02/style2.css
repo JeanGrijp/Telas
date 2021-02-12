@@ -128,8 +128,9 @@ div.container div.forms-container1 div.signin form.signin-form {
 div.container div.forms-container1 div.signin form.signin-form  h2 {
   color: var(--color-2);
   font-size: 2.2rem;
-  position: absolute;
-  top: 14%;
+  position: relative;
+  top: -5%;
+  margin: 0;
 }
 
 div.container div.forms-container1 div.signin form.signin-form  div {
