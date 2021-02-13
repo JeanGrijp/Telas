@@ -55,10 +55,8 @@ div.text1 {
   0% {
     width: 5000px;
     height: 5000px;
-  }
-  50% {
-    width: 500px;
-    height: 500px;
+    position: absolute;
+    z-index: 2;
   }
 }
 
@@ -76,8 +74,19 @@ div.text1 p {
 
 div.text1 h1, div.text1 p {
   color: #FFF;
+  transition: 3s;
+  animation: ani-text1 1.5s linear;
 }
 
+@keyframes ani-text1 {
+  0% {
+    color: var(--color-2);
+  }
+  100%{
+    color: var(--color-2);
+    transition: 3s;
+  }
+}
 
 
 div.container div.text1 div.btn {

@@ -1,6 +1,6 @@
 let botao = document.querySelector('div.btn > p')
  
-botao.addEventListener('click', () => {
+botao.addEventListener('click', async function () {
   if (botao.innerHTML === 'Sign up') {
     changeToSignUp()
   }
@@ -22,6 +22,7 @@ const changeToSignUp = () => {
 
 
 }
+
 
 const changeToSignIn = () => {
   document.querySelector('div.container > img').setAttribute('src', './imagens/undraw_Data_trends_re_2cdy.svg')
