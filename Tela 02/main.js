@@ -10,6 +10,7 @@ botao.addEventListener('click', async function () {
 })
 
 
+
 const changeToSignUp = () => {
   document.querySelector('div.container > img').setAttribute('src', './imagens/undraw_Code_thinking_re_gka2.svg')
   document.querySelector('h2.tittle').innerHTML = 'Sign up'
