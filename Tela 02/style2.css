@@ -48,13 +48,13 @@ div.text1 {
   /* border-radius: 45%; */
   border-radius: 0px 0px 10px 90%;
   text-align: center;
-  animation: text1-ani 1s linear;
+  animation: text1-ani 2s linear;
 }
 
 @keyframes text1-ani {
   0% {
-    width: 5000px;
-    height: 5000px;
+    width: 3000px;
+    height: 500px;
     position: absolute;
     z-index: 2;
   }
@@ -75,15 +75,17 @@ div.text1 p {
 div.text1 h1, div.text1 p {
   color: #FFF;
   transition: 3s;
-  animation: ani-text1 1.5s linear;
+  animation: ani-text1 2.2s linear;
 }
 
 @keyframes ani-text1 {
   0% {
     color: var(--color-2);
+    border: 1px solid var(--color-2);
   }
   100%{
     color: var(--color-2);
+    border: 1px solid var(--color-2);
     transition: 3s;
   }
 }
@@ -100,7 +102,20 @@ div.container div.text1 div.btn {
   align-items: center;
   cursor: pointer;
   transition: 1s;
+  animation: ani-btn 2.2s linear;
 
+}
+
+@keyframes ani-btn {
+  0% {
+    color: var(--color-2);
+    border: 1px solid var(--color-2);
+  }
+  100%{
+    color: var(--color-2);
+    transition: 3s;
+    border: 1px solid var(--color-2);
+  }
 }
 
 div.container div.text1 div.btn p {

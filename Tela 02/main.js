@@ -1,6 +1,6 @@
 let botao = document.querySelector('div.btn > p')
  
-botao.addEventListener('click', async function () {
+botao.addEventListener('click',  () => {
   if (botao.innerHTML === 'Sign up') {
     changeToSignUp()
   }
@@ -9,7 +9,7 @@ botao.addEventListener('click', async function () {
   }
 })
 
-
+document.querySelector('body').cre
 
 const changeToSignUp = () => {
   document.querySelector('div.container > img').setAttribute('src', './imagens/undraw_Code_thinking_re_gka2.svg')
