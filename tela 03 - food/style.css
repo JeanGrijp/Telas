@@ -1,0 +1,23 @@
+:root {
+  --color-background-1: #fff
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  width: 100%;
+  height: 400vh;
+}
+
+div.start {
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('./imagens/pexels-pixabay-461428.jpg');
+  width: 100%;
+  height: 100vh;
+}
