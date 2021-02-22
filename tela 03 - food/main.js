@@ -1,10 +1,3 @@
-// if (document.body.scrollTop > 2 || document.documentElement.scrollTop > 2) {
-//   document.querySelector('.nav1').classList.replace('nav1', 'nav2')
-// } else {
-//   document.querySelector('.nav2').classList.replace('nav2', 'nav1')
-// }
-
-
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
